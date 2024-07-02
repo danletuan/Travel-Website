@@ -1,0 +1,61 @@
+body {
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 33.18px;
+    font-weight: 400;
+    line-height: 39.82px;
+    color: #295943;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #3D3E48;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    color: #43B97F;
+}
+
+.contact-header {
+    background-image: url('../images/Contact/Background.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 30px 90px;
+}
+
+.contact-header h1 {
+    font-size: 33.18px;
+    font-weight: 700;
+    line-height: 39.82px;
+    color: white;
+    width: 188px;
+    margin: 0;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+
+footer {
+    background-color: #295943;
+    color: white;
+    padding: 40px 0;
+}

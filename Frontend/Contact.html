@@ -5,110 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/Contact.css">
     <title>Contact Us</title>
-    <style>
-        .contact-header {
-            background-image: url('./images/Contact/Background.png');
-            background-size: cover;
-            background-position: center;
-            height: 250px;
-            position: relative;
-            opacity: 1;
-            display: flex;
-            align-items: flex-end;
-            padding-left: 90px;
-            padding-bottom: 30px;
-        }
-
-        .contact-header h1 {
-            font-family: Poppins;
-            font-size: 33.18px;
-            font-weight: 700;
-            line-height: 39.82px;
-            text-align: left;
-            color: white;
-            width: 188px;
-            height: 40px;
-            margin: 0;
-        }
-
-        .paragraph {
-            font-family: Poppins;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 28.8px;
-            text-align: left;
-        }
-
-        .form-label {
-            font-family: Poppins;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 28.8px;
-            text-align: left;
-        }
-
-
-        .footer {
-            background-color: #295943;
-            color: white;
-            padding: 40px 0;
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Header -->
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-3 text-left">
-                <a class="navbar-brand" href="#"
-                    style="font-family: Poppins; font-size: 33.18px; font-weight: 400; line-height: 39.82px; color: #295943;">travelaja</a>
-            </div>
-            <div class="col-7">
-                <div class="d-flex justify-content-around">
-                    <div class="col-auto">
-                        <a class="nav-link" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 28.8px; color: #3D3E48; cursor: pointer;">Home</a>
-                    </div>
-                    <div class="col-auto">
-                        <a class="nav-link" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 28.8px; color: #3D3E48; cursor: pointer;">Discover</a>
-                    </div>
-                    <div class="col-auto">
-                        <a class="nav-link" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 28.8px; color: #3D3E48; cursor: pointer;">Services</a>
-                    </div>
-                    <div class="col-auto">
-                        <a class="nav-link" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 28.8px; color: #3D3E48; cursor: pointer;">News</a>
-                    </div>
-                    <div class="col-auto">
-                        <a class="nav-link" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 400; line-height: 28.8px; color: #3D3E48; cursor: pointer;">About
-                            Us</a>
-                    </div>
-                    <div class="col-auto">
-                        <a class="nav-link active" aria-current="page" href="#"
-                            style="font-family: Poppins; font-size: 16px; font-weight: 700; line-height: 28.8px; color: #43B97F; cursor: pointer;">Contact</a>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3 text-left">
+                    <a class="navbar-brand" href="#">travelaja</a>
+                </div>
+                <div class="col-7">
+                    <div class="d-flex justify-content-around">
+                        <div class="col-auto">
+                            <a class="nav-link" href="#">Home</a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="nav-link" href="#">Discover</a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="nav-link" href="#">Services</a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="nav-link" href="#">News</a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="nav-link" href="#">About Us</a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-2 d-flex align-items-center justify-content-end">
-                <img src="./images/Contact/VietNam.png" alt="icon"
-                    style="width: 24px; height: 24px; margin-right: 8px;">
-                <span class="me-2"
-                    style="font-family: Poppins; font-size: 16px; font-weight: 700; line-height: 28.8px; color: #3D3E48;">ID</span>
-
+                <div class="col-2 d-flex align-items-center justify-content-end">
+                    <img src="./images/Contact/VietNam.png" alt="icon"
+                        style="width: 24px; height: 24px; margin-right: 8px;">
+                    <span class="me-2">ID</span>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
 
     <!-- Contact Us Header -->
     <div class="contact-header">
-        <h1>Contact Us</h1>
+        <h1 class="text-start">Contact Us</h1>
     </div>
 
     <!-- Contact Form and Info -->
@@ -178,9 +122,8 @@
     </div>
 
 
-
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -215,8 +158,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

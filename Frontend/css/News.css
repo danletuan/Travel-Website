@@ -53,8 +53,16 @@ body {
 }
 
 
-footer {
+.footer {
     background-color: #295943;
     color: white;
-    padding: 40px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li {
+    margin-bottom: 0.5rem;
 }

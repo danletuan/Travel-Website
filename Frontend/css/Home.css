@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 33.18px;
+    font-weight: 400;
+    line-height: 39.82px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #FFFFFF;
+}
+
+.lang-id {
+    color: #FFFFFF; 
+}
+
+.bg-image {
+    background-image: url('../images/Home/Background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.header-content {
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.search-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 4px 8px 2px #00000040; 
+}
+.search-form input, .search-form button {
+    height: 50px;
+}
+.search-form button {
+    background-color: #28a745;
+    color: white;
+}
+
+.content-section {
+    padding: 50px 0;
+}
+/* .image-stack {
+    position: relative;
+    height: 100%;
+}
+.image-stack img {
+    position: absolute;
+    border-radius: 20px;
+}
+.image-stack .image-stack-1 {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: calc(50% - 10px);
+    z-index: 1;
+}
+.image-stack .image-stack-2 {
+    top: 20%;
+    left: 20%;
+    height: 80%;
+    width: calc(40% - 10px);
+    z-index: 2;
+}
+.image-stack .image-stack-3 {
+    top: 0;
+    right: 0;
+    height: 80%;
+    width: calc(40% - 10px);
+    z-index: 3;
+} */
+.text-section {
+    padding-left: 50px;
+}
+.text-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+}
+.text-section p {
+    font-size: 16px;
+    color: #666666;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.stat {
+    text-align: center;
+}
+.stat h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #28a745;
+}
+.stat p {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+
+.footer {
+    background-color: #295943;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li {
+    margin-bottom: 0.5rem;
+}

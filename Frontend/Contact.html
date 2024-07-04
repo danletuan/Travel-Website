@@ -49,7 +49,6 @@
         </div>
     </header>
 
-
     <!-- Contact Us Header -->
     <div class="contact-header">
         <h1 class="text-start">Contact Us</h1>
@@ -61,23 +60,33 @@
             <div class="col-md-6">
                 <h2>Get in touch</h2>
                 <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
-                    luctus venenatis,
-                    lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
-                    leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis
-                    scelerisque fermentum dui faucibus in ornare quam viverra
-                </p>
-                <form>
+                    luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
+                    elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam
+                    quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
+                <form id="contactForm" novalidate>
                     <div class="mb-3">
                         <label for="name" class="form-label">Name <span style="color: red;">*</span></label>
-                        <input type="text" class="form-control" id="name" placeholder="Input your name">
+                        <input type="text" class="form-control" id="name" placeholder="Input your name" required
+                            maxlength="255">
+                        <div class="invalid-feedback">
+                            Please enter your name. Maximum 255 characters allowed.
+                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email <span style="color: red;">*</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required
+                            maxlength="255">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address. Maximum 255 characters allowed.
+                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message <span style="color: red;">*</span></label>
-                        <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Message" required
+                            maxlength="1000"></textarea>
+                        <div class="invalid-feedback">
+                            Please enter your message. Maximum 1000 characters allowed.
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-success"
                         style="background-color: #43B97F; border-color: #43B97F;">Send</button>
@@ -102,43 +111,66 @@
     </div>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h5>travelaja</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
-                        venenatis.</p>
-                    <p>Ikuti Kami</p>
+    <footer class="footer">
+        <div class="container group pt-5 pb-5">
+            <div class="group row">
+                <div class="logo col-4">
+                    <a href="home.html" class="fs-3">travelaja</a>
+                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                        luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent
+                        elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam
+                        quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra.</p>
                 </div>
-                <div class="col-md-3">
-                    <h5>Links</h5>
-                    <p>Discover</p>
-                    <p>Special Deals</p>
-                    <p>Services</p>
-                    <p>Community</p>
-                    <p>About Us</p>
+                <div class="links col-2">
+                    <h5 class="mb-4 mt-2 fw-bold">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Special Deals</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    <h5>Services</h5>
-                    <p>Blog & Articles</p>
-                    <p>Term and Condition</p>
-                    <p>Privacy Policy</p>
-                    <p>Contact Us</p>
+                <div class="services col-3">
+                    <h5 class="mb-4 mt-2 fw-bold">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog & Articles</a></li>
+                        <li><a href="#">Term and Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    <h5>Contact</h5>
-                    <p>Address: JL.Cindelaras No.205A</p>
-                    <p>City: Kediri, Para AGT</p>
-                    <p>Phone: 123 456 7890</p>
-                    <p>Email: myunganeranad@gmail.com</p>
-                    <p>Maps: Kediri, East Java</p>
+                <div class="contact col-3">
+                    <h5 class="mb-4 mt-2 fw-bold">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>Address: Jl.Codelaras No.205A</p>
+                        </li>
+                        <li>
+                            <p>Kediri, Pare AG17</p>
+                        </li>
+                        <li>
+                            <p>Phone: 123 456 7890</p>
+                        </li>
+                        <li>
+                            <p>Email: myagungperdana@gmail.com</p>
+                        </li>
+                        <li>
+                            <p>Maps: Kediri, East java</p>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+            <div class="social">
+                <h4>Ikuti Kami</h4>
+                <img class="img" src="./images/Contact/Frame 9.svg" />
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Contact.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,158 @@
+body {
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 33.18px;
+    font-weight: 400;
+    line-height: 39.82px;
+    color: #295943;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #3D3E48;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    color: #43B97F;
+}
+
+.title-new {
+    background-image: url('../images/News-Detail/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 30px 90px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-new h1 {
+    font-size: 33.18px;
+    font-weight: 700;
+    line-height: 39.82px;
+    color: white;
+    margin: 0;
+    width: 100%; 
+}
+
+.title-new-date {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #FFFFFF;
+}
+
+.content-new {
+    margin-top: 20px;
+}
+.content-new p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #000000;
+}
+
+
+.other-destinations {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+.see-all {
+    color: #43B97F;
+    text-decoration: none;
+}
+
+.card{
+    background-image: url('../images/News-Detail/image4.png');
+    width: 380px; 
+    height: 255px; 
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 19.2px; 
+    font-weight: 700; 
+    line-height: 34.56px; 
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.card-text {
+    font-size: 12px; 
+    font-weight: 700; 
+    line-height: 21.6px; 
+    text-align: left; 
+    color: #FFFFFF;
+}
+
+.btn-success {
+    background-color: #43B97F;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #43B97F;
+}
+
+
+.footer {
+    background-color: #295943;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 992px) {
+    .title-new {
+        padding: 0px 30px 30px 30px; 
+    }
+
+    .title-new h1 {
+        font-size: 2rem; 
+    }
+
+    .title-new-date {
+        font-size: 0.875rem; 
+    }
+
+    .content-new p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-new {
+        height: 200px; 
+    }
+
+    .title-new h1 {
+        font-size: 1.5rem; 
+    }
+
+    .title-new-date {
+        font-size: 0.75rem; 
+    }
+
+    .content-new p {
+        font-size: 0.875rem;
+    }
+}

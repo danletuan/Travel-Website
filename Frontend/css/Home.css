@@ -201,3 +201,172 @@ body, html {
 .footer li {
     margin-bottom: 0.5rem;
 }
+
+/* CSS cho responsive design */
+@media (max-width: 991.98px) {
+    .navbar-brand {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .nav-link {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .lang-id {
+        font-size: 14px;
+    }
+    .header-content {
+        padding: 50px 0;
+    }
+    .image-box {
+        height: auto;
+    }
+    .image-box__item-first,
+    .image-box__item-second,
+    .image-box__item-last {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        outline: none;
+        position: static;
+    }
+    .introduce-title {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .introduce-subtitle {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .introduce-description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .number,
+    .description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .top-destination {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .top-destination-content {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .card-title {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .card-text-1 {
+        font-size: 14px;
+        line-height: 1.5;
+        display: block;
+    }
+    .card-text-2 {
+        font-size: 12px;
+        line-height: 1.5;
+        display: block;
+        padding-left: 0;
+    }
+    .avatar {
+        margin-right: 5px;
+    }
+    .name {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .nav-link {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .lang-id {
+        font-size: 12px;
+    }
+    .header-content {
+        padding: 30px 0;
+    }
+    .introduce-subtitle {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .introduce-description {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .number,
+    .description {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .top-destination-content {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .card-title {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .card-text-1 {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .name {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .nav-link {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .lang-id {
+        font-size: 11px;
+    }
+    .header-content {
+        padding: 20px 0;
+    }
+    .introduce-subtitle {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .introduce-description {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .number,
+    .description {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .top-destination-content {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .card-title {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .card-text-1 {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    .name {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
